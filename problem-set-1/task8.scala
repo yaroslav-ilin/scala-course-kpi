@@ -7,6 +7,7 @@ def nth(pos: Int, list: List[Int]): Int = {
   }
 }
 
+println
 val list = List(1, 1, 2, 3, 5, 8)
 println(list + "(2) => " + list(2))
 println("nth(2, " + list + ") => " + nth(2, list))

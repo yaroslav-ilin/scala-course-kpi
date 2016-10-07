@@ -10,6 +10,7 @@ def _compress(i: List[Char], o: List[Char]): List[Char] = (i, o) match {
 def compress(list: List[Char]): List[Char] = _compress(list, List()).reverse
 
 
+println
 val list = List('a', 'a', 'a', 'b', 'c', 'c', 'a', 'a', 'd', 'e', 'e', 'e', 'e')
 
 println(

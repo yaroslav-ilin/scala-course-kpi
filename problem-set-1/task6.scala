@@ -8,6 +8,7 @@ def balance(chars: List[Char]): Boolean = {
   balanced(chars, 0)
 }
 
+println
 println("balance(\"(if (zero? x) max(/1 x))\") => " + balance("(if (zero? x) max(/1 x))".toList))
 println("balance(\":-)\") => " + balance(":-)".toList))
 
